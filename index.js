@@ -15,8 +15,8 @@ app.get("/", function (req, res) {
     }
 
     // get video stats (about 61MB)
-    const videoPath = "/node /VideoStream/bigbuck.mp4";
-    const videoSize = fs.statSync("bigbuck.mp4").size;
+    const videoPath = "/video";
+    const videoSize = fs.statSync("video.mp4").size;
 
     // Parse Range
     // Example: "bytes=32324-"
@@ -44,5 +44,5 @@ app.get("/", function (req, res) {
 
 });
 
-app.listen(5500);
+app.listen(8000);
 
