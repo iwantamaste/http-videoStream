@@ -1,8 +1,6 @@
 # http-videoStream
 
-`
-npm install \n
-npm start
-`
-\n
+`npm install 
+npm start`
+
 video streaming via node js using express 
